@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const form = document.querySelector("form");
     const quantityInput = document.getElementById("quantity");
-    const pricePerProduct = 100; // Harga per produk
+    const pricePerProduct = Rp140.000,00; // Harga per produk
 
     form.addEventListener("submit", function (e) {
         e.preventDefault();
